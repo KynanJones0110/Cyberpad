@@ -74,7 +74,8 @@ def base64_decode():
         convertedbytes = base64.b64decode(convertbytes)
         # decoding the ASCII characters into alphabets
         decodedsample = convertedbytes.decode("ascii") 
-        print(decodedsample)
+        text_widget.delete(1.0, END)
+        text_widget.insert(1.0, decodedsample)
     except:
         print("idk add message box here etc.")
 def defang(*args):
