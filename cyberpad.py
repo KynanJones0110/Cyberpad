@@ -221,7 +221,7 @@ size_box = Spinbox(window, from_=1, to=100, textvariable=font_size,command=chang
 # Tab Button
 tab_button = ttk.Button(window, text=" + ", command=add_tab,style="Custom.TButton",)
 
-# Handle position of Tab Button
+# Handle position of Tab Button << TEMPORARY, TABS TO ADD SELECTED FILES NAMES. Len of tab.text + x offset will work better? >>
 def update_tab_button(bump):
     global new_tab_button_x
     new_tab_button_x += bump
