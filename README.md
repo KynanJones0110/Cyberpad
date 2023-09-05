@@ -7,3 +7,4 @@ General notepad app with built in functions such as base64 decoding, URL defangi
 
 - Fix Base64 encoding (make it flexible for utf-8/ascii etc)
 - Font & Size changes / options
+- Add help/reference page
